@@ -5,5 +5,5 @@
 - ⚡ Su objetivo es principal es poner en practica el maquetado en HTML, y el uso de estilos en CSS. 
 
 <!-- LINKS -->
-[DigitalHouse] : https://www.digitalhouse.com/
-[MercadoLibre] : https://mercadolibre.com/
+[DigitalHouse](https://www.digitalhouse.com/)
+[MercadoLibre](https://mercadolibre.com/)
