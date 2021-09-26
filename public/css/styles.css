@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #eac926;
+  background-size: 100%;
+  text-align: center;
+  height: 35%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  background-color: #ebebeb;
+  height: 60%;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+main section {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 1%;
+}
+
+#banner {
+  width: 100%;
+  height: 40%;
+  max-height: 275px;
+  margin: 0;
+}
+
+#logo {
+  margin: 10px;
+  text-align: left;
+  width: 50%;
+  max-width: 120px;
+  display: inline;
+}
+ 
+#barra {
+  display: flex;
+  width: 50%;
+  border: 0.2px solid honeydew;
+  background-color: honeydew;
+  border-radius: 6px;
+}
+
+input {
+  width: 100%;
+  border: none;
+}
+
+#compra {
+  text-align: center;
+  font-size: 14px;
+}
+
+.logo-bar {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.no-bullets {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 12px;
+}
+
+.lista-izquierda {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.lista-derecha {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.burger-menu {
+  background: #03264c;
+  color: white;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: flex-start;
+}
+
+article img {
+  max-width: 100%;
+}
+
+.productos {
+  margin: 10px auto;
+  width: 95%;
+  background-color: white;
+  justify-items: center;
+
+}
+
+.productos-descripcion {
+  border-top: 1px solid #ebebeb;
+  padding: 20px;
+  text-align: start;
+  position: relative;
+}
+
+.precio-descuentos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section article i {
+  font-size: 14px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  color: #39b54a;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  top: -18px;
+}
+
+.btn {
+  background-color: white;
+  border: darkgrey;
+  color: black;
+  padding: 12px 12;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0022AA;
+}
+
+h2.titulares {
+  font-size: 18px;
+  font-weight: 900;
+  color: #666;
+  margin: 15px;
+}
+
+h3.descripciones {
+  font-size: 14px;
+  text-align: center;
+  font-weight: lighter;
+  color: #666;
+  align-self: flex-end;
+}
+
+p.precios {
+  font-size: 16px;
+  margin: 0px;
+  font-weight: bold;
+  flex-grow: 0.3;
+}
+
+p.descuentos {
+  font-size: 14px;
+  margin: 0px;
+  color: #39b54a;
+  flex-grow: 0.7;
+  text-align: center;
+}
+
+/*   FORMULARIO REGISTRO   */
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+.formulario-registro {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ebebeb;
+  align-self: center;
+}
+
+.contenedor-form {
+  border-radius: 12px;
+  display: flex;
+  align-self: center;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+
+.tipo-perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+
+main div p {
+  align-items: center;
+  margin: 15px;
+}
+
+
+main div form p input {
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px;
+  align-items: left;
+}
+
+#foto {
+  margin-top: 15px;
+}
+
+#fecha_nac {
+  margin-top: 15px;
+}
+
+.titulo-form {
+  font-weight: 600;
+  margin: 15px;
+}
+
+.contenedor-botones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-form {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+}
+
+main form p button:hover {
+  background-color: #0022AA;
+}
+
+main form p button {
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 10px;
+  border: none;
+}
+
+/*   FOOTER   */
+.footer-padre {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.footer-title {
+  font-weight: 900;
+  font-size: 17px;
+  margin: 0px;
+}
+
+.footer-padre i {
+  color: #03264c;
+  font-size: 32px;
+}
+
+footer p {
+  margin: 0px;
+}
+
+footer i {
+  padding: 10px;
+}
+
+footer section {
+  width: 50%;
+  margin: 10px;
+}
+
+footer section {
+  background-color: white;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: thin;
+}
+
+/*   FORMULARIO LOG-IN  */
+main {
+  width: 100%;
+}
+
+.main-login {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.contenedor-form-login {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+}
+
+.inputs-login {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* -- TABLETS --  */
+@media (min-width: 361px) {
+  h3.descripciones {
+    display: none;
+  }
+  .productos {
+    width: 48%;
+  }
+
+  .no-bullets {
+    display: none;
+  }
+
+  #logo {
+    width: 45%;
+    max-width: 120px
+  }
+  
+  #barra {
+    width: 45%;
+  }
+  
+}
+
+/* -- DESKTOP --  */
+@media (min-width: 769px) {
+  .burger-menu {
+    display: none;
+  }
+
+.productos-descripcion {
+  max-height: 60px;
+  transition: max-height 0.5s;
+}
+
+  h3.descripciones {
+    display: initial;
+    position: relative;
+    bottom: 10px;
+    transition: bottom 0.1s, opacity 0.5s;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .productos:hover .descripciones {
+    position: relative;
+    bottom: 0px;
+    z-index: 1;
+    opacity: 1;
+  }
+
+  .productos:hover .productos-descripcion {
+    max-height: 80px;
+  }
+
+  .productos:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .productos {
+    width: 22%;
+  }
+
+
+  .productos:hover .camion {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+  }
+
+  .no-bullets {
+    display: inline-flex;
+  }
+
+  #logo {
+    width: 40%;
+    max-width: 120px
+  }
+  
+  #barra {
+    width: 40%;
+  }
+
+  #compra {
+    width: 20%;
+  }
+
+  .logo-bar {
+    flex-wrap: nowrap;
+  }
+
+  .footer-padre {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
