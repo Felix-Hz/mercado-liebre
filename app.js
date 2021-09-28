@@ -8,7 +8,7 @@ app.get('/home', (req, res) => {
     res.send('Si... ¡está corriendo!');
 });
 
-app.listen(3030, () =>
+app.listen(process.env.PORT || 3030, () =>
     console.log('Servidor corriendo... Entrar acá: http://localhost:3030')
 );
 
