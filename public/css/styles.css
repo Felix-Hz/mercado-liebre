@@ -350,7 +350,9 @@ footer section {
   font-weight: thin;
 }
 
-
+.copyright {
+  width: 100%;
+}
 
 /*   FORMULARIO LOG-IN  */
 main {
