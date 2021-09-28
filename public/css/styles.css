@@ -8,7 +8,7 @@ header {
   background-color: #eac926;
   background-size: 100%;
   text-align: center;
-  height: 35%;
+  height: 45%;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   width: 100%;
   background-color: #ebebeb;
-  height: 60%;
+  height: 50%;
 }
 
 main {
@@ -31,7 +31,8 @@ main section {
 
 footer {
   width: 100%;
-  height: 1%;
+  height: 20%;
+  background-color: white;
 }
 
 #banner {
@@ -42,7 +43,7 @@ footer {
 }
 
 #logo {
-  margin: 10px;
+  margin: 40px 0;
   text-align: left;
   width: 50%;
   max-width: 120px;
@@ -55,6 +56,7 @@ footer {
   border: 0.2px solid honeydew;
   background-color: honeydew;
   border-radius: 6px;
+  margin-top: 40px 0;
 }
 
 input {
@@ -69,7 +71,6 @@ input {
 
 .logo-bar {
   width: 100%;
-  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -84,6 +85,8 @@ input {
   align-items: center;
   list-style-type: none;
   padding: 12px;
+  margin: 20px;
+
 }
 
 .lista-izquierda {
@@ -203,32 +206,33 @@ p.descuentos {
   text-align: center;
 }
 
-/*   FORMULARIO REGISTRO   */
+/*   FORMULARIO REGISTRO - LOGIN  */
 main {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-content: center;
-
 }
+
 .formulario-registro {
   width: 90%;
   padding: 10px;
   margin: 10px;
   background-color: #ebebeb;
   align-self: center;
+  height: fit-content;
 }
 
 .contenedor-form {
+  width: 65%;
   border-radius: 12px;
   display: flex;
   align-self: center;
+  justify-content: center;
 }
 
 .check {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
   padding: 10px;
   margin: 10px;
 }
@@ -250,7 +254,7 @@ main div p {
 main div form p input {
   border-radius: 12px;
   padding: 10px;
-  margin: 10px;
+  margin: 10px 0;
   align-items: left;
 }
 
@@ -264,8 +268,10 @@ main div form p input {
 
 .titulo-form {
   font-weight: 600;
-  margin: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
+
 
 .contenedor-botones {
   display: flex;
@@ -274,13 +280,11 @@ main div form p input {
 }
 
 .btn-form {
-  padding: 10px;
+  width: 30%;
+  padding: 15px;
   margin: 10px;
   border: none;
-}
-
-main form p button:hover {
-  background-color: #0022AA;
+  transition: all 0.35s;
 }
 
 main form p button {
@@ -290,7 +294,15 @@ main form p button {
   border-radius: 12px;
   margin: 10px;
   border: none;
+  width: 20%;
+  justify-content: center;
+  transition: all 0.35s;
 }
+
+main form p button:hover {
+  background-color: #0022AA;
+}
+
 
 /*   FOOTER   */
 .footer-padre {
@@ -299,6 +311,7 @@ main form p button {
   flex-direction: column;
   align-items: center;
   background-color: white;
+  margin: 25px;
 }
 
 .footer-title {
@@ -318,6 +331,7 @@ footer p {
 
 footer i {
   padding: 10px;
+  margin-top: 20px;
 }
 
 footer section {
@@ -329,11 +343,14 @@ footer section {
   background-color: white;
   margin: 0px;
   padding: 10px;
+  margin: 40;
   width: 100%;
   text-align: center;
   font-size: 12px;
   font-weight: thin;
 }
+
+
 
 /*   FORMULARIO LOG-IN  */
 main {
@@ -359,7 +376,11 @@ main {
   flex-direction: column;
 }
 
-
+.formulario-login {
+  width: 60%;
+  text-align: center;
+  margin: 140px 0;
+}
 
 /* -- TABLETS --  */
 @media (min-width: 361px) {
@@ -383,6 +404,14 @@ main {
     width: 45%;
   }
   
+  .formulario-login {
+    width: 90%;
+  }
+
+  main form p button {
+    width: 60%;
+  }
+ 
 }
 
 /* -- DESKTOP --  */
@@ -424,9 +453,9 @@ main {
     width: 22%;
   }
 
-
   .productos:hover .camion {
-    transform: rotate(180deg);
+    transform: 
+      rotate(360deg) translateX(-5px);
     transition: all 0.3s;
   }
 
@@ -435,12 +464,12 @@ main {
   }
 
   #logo {
-    width: 40%;
+    width: 45%;
     max-width: 120px
   }
   
   #barra {
-    width: 40%;
+    width: 30%;
   }
 
   #compra {
@@ -454,6 +483,10 @@ main {
   .footer-padre {
     display: flex;
     flex-direction: row;
+  }
+
+  main form p button {
+    width: initial;
   }
 
 }

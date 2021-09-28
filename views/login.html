@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="/css/styles.css" />
 
     <!-- Links Tipografía - ROBOTO -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Vinculo ICONOS -->
     <link
@@ -49,8 +52,14 @@
               <li>Ayuda</li>
             </section>
             <section class="lista-derecha">
-              <li><a href="register.html">Creá tu cuenta</a><i class="far fa-id-card"></i></li>
-              <li><a href="login.html">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+              <li>
+                <a href="/register">Creá tu cuenta</a
+                ><i class="far fa-id-card"></i>
+              </li>
+              <li>
+                <a href="/login">Ingresá</a
+                ><i class="fas fa-sign-in-alt"></i>
+              </li>
               <li>Mis compras<i class="fas fa-shopping-cart"></i></li>
             </section>
           </ul>
@@ -63,21 +72,33 @@
         <!-- Banner -->
         <img id="banner" src="/images/img-home-banner.jpg" alt="Banner" />
       </section>
-       
-        <main class="main-login">
-          <div class="contenedor-form-login">
-            <form action="/login" method="POST" class="formulario-login">
-                <p class="inputs-login">
-                    <input type="text" name="nombre_usuario" id="nombre_usuario" placeholder="Nombre de usuario" required>
-                </p>
-                <p class="inputs-login">
-                    <input type="password" name="password" id="password" placeholder="Contraseña" required>
-                </p>
-                <p class="btn-form">
-                    <button type="submit">Submit</button>
-                </p>
-            </form>
-          </div>
+
+      <main class="main-login">
+        <div class="contenedor-form-login">
+          <form action="/login" method="POST" class="formulario-login">
+            <p class="inputs-login">
+              <input
+                type="text"
+                name="nombre_usuario"
+                id="nombre_usuario"
+                placeholder="Nombre de usuario"
+                required
+              />
+            </p>
+            <p class="inputs-login">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Contraseña"
+                required
+              />
+            </p>
+            <p class="btn-form-submit">
+              <button type="submit">Log In</button>
+            </p>
+          </form>
+        </div>
       </main>
 
       <footer>
