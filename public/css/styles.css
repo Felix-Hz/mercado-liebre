@@ -79,7 +79,7 @@ input {
 }
 
 .no-bullets {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -457,7 +457,7 @@ main {
   .productos:hover .camion {
     transform: 
       rotate(360deg) translateX(-5px);
-    transition: all 0.3s;
+    transition: all 1s;
   }
 
   .no-bullets {
