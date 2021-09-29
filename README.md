@@ -3,4 +3,4 @@
 - ⚡ Proyecto realizado en el curso de Desarrollo Full Stack de [Digital House](https://www.digitalhouse.com/). 
 - ⚡ Recreación de la UI de [Mercado Libre](https://mercadolibre.com/).
 - ⚡ Su objetivo es principal es poner en practica el maquetado en HTML, y el uso de estilos en CSS. 
-- :point_right: Podés verlo [acá:](https://mercadoliebre-project.herokuapp.com/) :point_left:
+- :point_right: Podés verlo [aquí](https://mercadoliebre-project.herokuapp.com/).
