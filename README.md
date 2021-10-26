@@ -14,4 +14,4 @@
 - ⚡ EJS template engine running partial views to optimize. 
 - ⚡ CRUD with NodeJS, MySQL and Sequelize. 
 
-- :point_right: What are you waiting for? Come check it out! [Here. :point_left:](https://mercadoliebre-project.herokuapp.com/).
+#### :point_right: What are you waiting for? Come check it out! [Here.](https://mercadoliebre-project.herokuapp.com/) :point_left:
