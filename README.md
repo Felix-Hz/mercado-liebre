@@ -6,7 +6,7 @@
 - ⚡ [Mercado Libre](https://mercadolibre.com/) UI Recreation.
 - ⚡ Its main objective was to practice static layout with HTML5 and CSS3 styling on the client side, and Express and NodeJS on the server side. 
 
-### But wait a minute! I'm want to go the extra mile here, so in the future you'll see...
+### But wait a minute! I want to go the extra mile here, so in the future you'll see...
 
 - ⚡ Solid MVC architecture.
 - ⚡ From static to JS-dynamic-webapp.
