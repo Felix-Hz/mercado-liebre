@@ -2,31 +2,32 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-// npm run start - corre el servidor
+// Lo estático se sacara por defecto de public 
+app.use(express.static(path.resolve(__dirname, "./public")));
 
 app.get('/home', (req, res) => {
     res.send('Si... ¡está corriendo!');
 });
 
 app.listen(process.env.PORT || 3030, () =>
-    console.log('Servidor corriendo... Entrar acá: http://localhost:3030')
+    console.log('Servidor corriendo en: http://localhost:3030')
 );
 
-// path.resolve(X,Y) para que ante cualquier cambio se mantenga --constante
-app.use(express.static(path.resolve(__dirname, "./public")));
+// Define que el motor que utilizamos es EJS 
+app.set('view engine', 'ejs');         
 
-app.get('/', (req, res) => {
-    const fileToSend = path.join(__dirname, '/views/home.html');
-    res.sendFile(fileToSend);
+app.get('/', 
 });
 
-app.get('/register', (req, res) => {
-    const fileToSend = path.join(__dirname, '/views/register.html');
-    res.sendFile(fileToSend);
+app.get('/register', 
 });
 
-app.get('/login', (req, res) => {
-    const fileToSend = path.join(__dirname, '/views/login.html');
-    res.sendFile(fileToSend);
+app.get('/login', 
 });
 
+// Importo los modulos de las rutas al entry point 
+const mainRouter = require('./routes/main');
+const productsRouter = require('./routes/products');
+
+app.use('/',mainRouter);
+app.use('/',productsRouter); 
