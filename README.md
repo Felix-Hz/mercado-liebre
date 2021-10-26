@@ -1,6 +1,17 @@
-# About
+# My first project
 
-- ⚡ Proyecto realizado en el curso de Desarrollo Full Stack de [Digital House](https://www.digitalhouse.com/). 
-- ⚡ Recreación de la UI de [Mercado Libre](https://mercadolibre.com/).
-- ⚡ Su objetivo es principal es poner en practica el maquetado en HTML, y el uso de estilos en CSS. 
-- :point_right: Podés verlo [aquí](https://mercadoliebre-project.herokuapp.com/).
+## About
+
+- ⚡ Project realized in the Full-Stack Web Development Bootcamp at [Digital House](https://www.digitalhouse.com/). 
+- ⚡ [Mercado Libre] UI Recreation (https://mercadolibre.com/).
+- ⚡ Its main objective was to practice static layout with HTML5 and CSS3 styling on the client side, and Express and NodeJS on the server side. 
+
+### But wait a minute! I'm want to go the extra mile here, so in the future you'll see...
+
+- ⚡ Solid MVC architecture.
+- ⚡ From static to JS-dynamic-webapp.
+- ⚡ Cleaner CSS-styling. 
+- ⚡ EJS template engine running partial views to optimize. 
+- ⚡ CRUD with NodeJS, MySQL and Sequelize. 
+
+- :point_right: What are you waiting for? Come check it out! [Here. :point_left:](https://mercadoliebre-project.herokuapp.com/).
