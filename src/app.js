@@ -16,18 +16,9 @@ app.listen(process.env.PORT || 3030, () =>
 // Define que el motor que utilizamos es EJS 
 app.set('view engine', 'ejs');         
 
-app.get('/', 
-});
-
-app.get('/register', 
-});
-
-app.get('/login', 
-});
-
 // Importo los modulos de las rutas al entry point 
 const mainRouter = require('./routes/main');
-const productsRouter = require('./routes/products');
 
-app.use('/',mainRouter);
-app.use('/',productsRouter); 
+app.use('/', mainRouter);
+app.use('/login', mainRouter);
+app.use('/register', mainRouter);

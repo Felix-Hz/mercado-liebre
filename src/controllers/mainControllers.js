@@ -5,7 +5,7 @@ const path = require('path');
 
 const controlador = { // Los métodos  se encargaran de cada req en particular
 
-    home: (req, res) => {
+    index: (req, res) => {
         const fileToSend = path.join(__dirname, '../views/users/home');
         res.render(fileToSend); // uso render por EJS
     },
