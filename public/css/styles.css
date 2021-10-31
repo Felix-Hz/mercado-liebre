@@ -259,6 +259,7 @@ main {
 main div p {
   align-items: center;
   margin: 15px;
+  width: 90%;
 }
 
 
@@ -396,6 +397,12 @@ main {
   width: 60%;
   text-align: center;
   margin: 140px 0;
+}
+
+.barra_input_login {
+  width: 65%;
+  border: none;
+  padding: 15px;
 }
 
 /* -- MOBILE S&M --  */
