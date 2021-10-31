@@ -90,6 +90,9 @@ input {
   margin: 20px;
 }
 
+.nav-items:hover {
+  font-weight: bold;
+}
 section ul section li i {
   margin: 2px;
 }
