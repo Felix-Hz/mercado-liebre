@@ -53,6 +53,7 @@ footer {
 #barra {
   display: flex;
   width: 50%;
+  height: 40px;
   border: 0.2px solid honeydew;
   background-color: honeydew;
   border-radius: 6px;
@@ -62,6 +63,11 @@ footer {
 input {
   width: 100%;
   border: none;
+  padding: 10px;
+}
+
+.fa-search {
+  padding-right: 15px;
 }
 
 #compra {
@@ -383,13 +389,13 @@ main {
   margin: 140px 0;
 }
 
-/* -- TABLETS --  */
-@media (min-width: 361px) {
+/* -- MOBILE S&M --  */
+@media (min-width: 320px) {
   h3.descripciones {
     display: none;
   }
   .productos {
-    width: 48%;
+    width: 75%;
   }
 
   .no-bullets {
@@ -397,12 +403,14 @@ main {
   }
 
   #logo {
-    width: 45%;
-    max-width: 120px
+    width: 95%;
+    max-width: 120px;
+    margin: 30px;
   }
   
   #barra {
     width: 45%;
+    display: none;
   }
   
   .formulario-login {
@@ -413,6 +421,16 @@ main {
     width: 60%;
   }
  
+}
+
+/* -- TABLET --  */
+@media (min-width: 320px) {
+  h3.descripciones {
+    display: none;
+  }
+  .productos {
+    width: 45%;
+  }
 }
 
 /* -- DESKTOP --  */
