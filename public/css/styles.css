@@ -54,7 +54,7 @@ footer {
   margin-top: 40px 0;
 }
 
-input {
+.barra_input {
   width: 100%;
   border: none;
   padding: 10px;
@@ -225,9 +225,9 @@ main {
 }
 
 .formulario-registro {
-  width: 90%;
+  width: 80%;
   padding: 10px;
-  margin: 10px;
+  margin: 90px 0 ;
   background-color: #ebebeb;
   align-self: center;
   height: fit-content;

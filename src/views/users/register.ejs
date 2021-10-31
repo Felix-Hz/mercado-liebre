@@ -33,7 +33,7 @@
             />
           </a>
           <form id="barra">
-            <input type="search" placeholder="Buscar productos, marcas..." />
+            <input class="barra_input" type="search" placeholder="Buscar productos, marcas..." />
             <button class="btn"><i class="fas fa-search"></i></button>
           </form>
           <p id="compra">
@@ -71,23 +71,23 @@
           <div class="contenedor-form">
             <form action="/registro" method="POST" class="formulario-registro">
               <p>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required minlength="10" maxlength="32">
+                <input  class="barra_input" type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" required minlength="10" maxlength="32">
               </p>
               <p>
-                  <input type="text" name="nombre_usuario" id="nombre_usuario" placeholder="Nombre de usuario" required minlength="8" maxlength="32">
+                  <input  class="barra_input" type="text" name="nombre_usuario" id="nombre_usuario" placeholder="Nombre de usuario" required minlength="8" maxlength="32">
                 </p>
                 <p>
                   <label class="titulo-form" for="fecha_nac">Fecha de nacimiento</label>
-                  <input type="date" name="fecha_nac" value="2021-09-24"  max="2022-12-31" id="fecha_nac" required>
+                  <input  class="barra_input" type="date" name="fecha_nac" value="2021-09-24"  max="2022-12-31" id="fecha_nac" required>
                 </p>
                 <p>
-                  <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+                  <input  class="barra_input" type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
                 </p>
                 <p class="etiquetas-contenido">
                   <label class="titulo-form" for="perfil">Perfil de usuario</label>
                   <div class="tipo-perfil">
-                    <label for="perfil1"><input type="radio" name="perfil1" id="perfil" value="Compra">Compra</p>
-                    <label for="perfil2"><input type="radio" name="perfil2" id="perfil" value="Venta">Venta</p>
+                    <label for="perfil"><input type="radio" name="perfil" id="perfil" value="Compra">Compra</p>
+                    <label for="perfil"><input type="radio" name="perfil" id="perfil" value="Venta">Venta</p>
                   </div>
               </p>
               <p class="etiquetas-contenido">
@@ -102,11 +102,11 @@
               </p>
               <p>
                 <label for="foto" class="titulo-form">Foto de usuario</label>
-                <input type="file" name="foto" id="foto" accept=".jpg" required>
+                <input  class="barra_input" type="file" name="foto" id="foto" accept=".jpg" required>
               </p>
               <p>
-                <input type="password" name="password" id="password" placeholder="Contraseña" required min="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-])"> <!-- REGEX: 1 Uppercase, 1 Lowercase, 1 Number, 1 Symbol, symbol allowed[(!@#$%^&*_=+-*/)] -->
-                <input type="password" name="confirmar_password" id="confirmar_password" placeholder="Confirmar contraseña" required min="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$">
+                <input  class="barra_input" type="password" name="password" id="password" placeholder="Contraseña" required min="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-])"> <!-- REGEX: 1 Uppercase, 1 Lowercase, 1 Number, 1 Symbol, symbol allowed[(!@#$%^&*_=+-*/)] -->
+                <input  class="barra_input" type="password" name="confirmar_password" id="confirmar_password" placeholder="Confirmar contraseña" required min="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$">
               </p>
               <p class="contenedor-botones">
                 <button type="submit" class="btn-form"><a href="/">Sign Up</a></button>
