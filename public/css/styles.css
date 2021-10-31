@@ -26,7 +26,7 @@ main {
 }
 
 main section {
-  width: 100%;
+  width: 80%;
 }
 
 footer {
@@ -88,7 +88,10 @@ input {
   list-style-type: none;
   padding: 12px;
   margin: 20px;
+}
 
+section ul section li i {
+  margin: 2px;
 }
 
 .lista-izquierda {
@@ -122,7 +125,7 @@ a:link, a:visited, a:active {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 10px;
+  margin: 25px 0 70px 0;
   align-items: flex-start;
 }
 
@@ -143,6 +146,7 @@ article img {
   padding: 20px;
   text-align: start;
   position: relative;
+  width: 100%;
 }
 
 .precio-descuentos {
@@ -201,7 +205,7 @@ p.precios {
 }
 
 p.descuentos {
-  font-size: 14px;
+  font-size: 13px;
   margin: 0px;
   color: #39b54a;
   flex-grow: 0.7;
@@ -214,6 +218,7 @@ main {
   display: flex;
   flex-direction: column;
   align-content: center;
+  align-items: center;
 }
 
 .formulario-registro {
@@ -337,9 +342,8 @@ footer i {
   margin-top: 20px;
 }
 
-footer section {
+.copyright {
   width: 50%;
-  margin: 10px;
 }
 
 footer section {
@@ -351,6 +355,10 @@ footer section {
   text-align: center;
   font-size: 12px;
   font-weight: thin;
+}
+
+.footer-sections {
+
 }
 
 .copyright {
