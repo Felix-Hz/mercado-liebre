@@ -225,7 +225,7 @@ main {
 }
 
 .formulario-registro {
-  width: 80%;
+  width: 100%;
   padding: 10px;
   margin: 90px 0 ;
   background-color: #ebebeb;
@@ -234,7 +234,7 @@ main {
 }
 
 .contenedor-form {
-  width: 65%;
+  width: 90%;
   border-radius: 12px;
   display: flex;
   align-self: center;
@@ -290,9 +290,8 @@ main div form p input {
 }
 
 .btn-form {
-  width: 30%;
-  padding: 15px;
-  margin: 10px;
+  width: 80%;
+  margin: 0 10px -15px 10px;
   border: none;
   transition: all 0.35s;
 }
@@ -528,4 +527,17 @@ main {
     max-height: 275px;
     margin: 0;
   }
+
+  .formulario-registro {
+    width: 75%;
+}
+.btn-form {
+  width: 45%;
+  margin: 30px 10px -15px 10px;
+}
+
+.contenedor-form {
+  width: 60%;
+}
+
 }
